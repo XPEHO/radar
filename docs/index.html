@@ -16,7 +16,20 @@
 
 <body>
 
-<svg id="radar"></svg>
+  <style>
+    .centered {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+    }
+  </style>
+  
+  <div class="centered">
+    <img src="images/XPEHO.svg" alt="XPEHO" style="width: 200px; height: 80px;" />
+  </div>
+
+  <svg id="radar"></svg>
 
 <script>
 fetch('./config.json').then(function(response) {
