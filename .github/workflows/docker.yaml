@@ -1,0 +1,16 @@
+name: Create Docker Image
+
+on: push
+
+jobs:
+  build-radar-dcker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build and publish Docker image
+        run: |
+          echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io --username phanatic --password-stdin
+          docker build -t radar-xpeho .
+          docker tag radar-xpeho ghcr.io/xpeho/radar:radar-xpeho-latest
+          docker push ghcr.io/xpeho/radar:radar-xpeho-latest
