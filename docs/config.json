@@ -56,6 +56,7 @@
 { "quadrant": 1, "ring": 0, "label": "MongoDB",  "active": true,  "moved": 0 },
 { "quadrant": 1, "ring": 0, "label": "Kafka",  "active": true,  "moved": 1 },
 { "quadrant": 1, "ring": 0, "label": "Spark",  "active": true,  "moved": 0 },
+{ "quadrant": 1, "ring": 0, "label": "Power BI",  "active": true,  "moved": 0 },
 { "quadrant": 3, "ring": 1, "label": "AWS",  "active": true,  "moved": 0 },
 { "quadrant": 3, "ring": 1, "label": "HA-Proxy",  "active": true,  "moved": 0 },
 { "quadrant": 3, "ring": 3, "label": "ZooKeeper",  "active": true,  "moved": -1 },
@@ -69,7 +70,10 @@
 { "quadrant": 3, "ring": 0, "label": "Docker Compose",  "active": true,  "moved": 0 },
 { "quadrant": 3, "ring": 0, "label": "NPM",  "active": true,  "moved": 0 },
 { "quadrant": 3, "ring": 0, "label": "OVH Cloud",  "active": true,  "moved": 0 },
-{ "quadrant": 3, "ring": 1, "label": "Serverless",  "active": true,  "moved": 0 }
+{ "quadrant": 3, "ring": 1, "label": "Serverless",  "active": true,  "moved": 0 },
+{ "quadrant": 3, "ring": 0, "label": "Grafana",  "active": true,  "moved": 0 },
+{ "quadrant": 3, "ring": 0, "label": "Terraform",  "active": true,  "moved": 0 },
+{ "quadrant": 3, "ring": 2, "label": "Open Telemetry",  "active": true,  "moved": 0 }
 
 
   ]
